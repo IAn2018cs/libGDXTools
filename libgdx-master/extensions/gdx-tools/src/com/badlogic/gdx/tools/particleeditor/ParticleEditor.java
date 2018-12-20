@@ -20,6 +20,7 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
+import java.io.FileInputStream;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
@@ -574,5 +575,6 @@ public class ParticleEditor extends JFrame implements OnBackgroundChangeListener
 				new ParticleEditor();
 			}
 		});
+		
 	}
 }
